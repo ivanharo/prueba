@@ -1,0 +1,14 @@
+name: decir  hola 
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  hola_mundo:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Eco the message
+       run: |
+        echo "hola mundoooo"
